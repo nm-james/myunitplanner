@@ -1,0 +1,98 @@
+
+.holder {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: ghostwhite;
+    text-align: center;
+    background-image: url('../../components/updates/images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.holder ul {
+    list-style: none;
+    padding: 0;
+    width: 65%;
+    margin: auto;
+    background-color: rgb( 1, 25, 60 );
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.holder ul li {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-size: 1.75rem;
+    padding-top: 2.5%;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+}
+
+.holder ul li:hover > button {
+    visibility: visible; 
+}
+
+
+.holder ul h2 {
+    text-align: center;
+    font-weight: 300;
+    padding-top: 2%;
+    display: inline-block;
+}
+
+.holder ul button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+    visibility: hidden; 
+}
+
+.holder ul img {
+    width: 45%; 
+    height: 100%; 
+    margin: 2% 2% 5% 0%; 
+    display: inline-block;
+}
+
+/* Classes */
+.updateDescription {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    margin-top: 2%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.updateDescription p {
+    margin-bottom: 5%;
+}
+
+.updateDescription a {
+    vertical-align: bottom;
+    text-decoration: underline;
+    color: white;
+}
+
+.extraInformation {
+    border-bottom: 1px solid #777;
+    margin: 0% 5%;
+}
+
+.extraInformation p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.15rem;
+    color:rgb(85, 85, 85);
+    display: inline-block;
+    width: 45%;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .holder img {
+        width: 100%;
+        margin: 1% 5% 5%0%; 
+    }
+}

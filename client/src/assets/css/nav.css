@@ -1,0 +1,29 @@
+.navBanner {
+    background-color: #211f2b;
+    border-bottom: 3px #35456e solid;
+}
+
+.logo {
+    width: 5%;
+    height: auto;
+    margin: 2vh 0%;
+    margin-left: 17%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.mainNavigation {
+    margin-left: 15%;
+    list-style-type: none;
+}
+
+.mainNavigation li {
+    display: inline;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}

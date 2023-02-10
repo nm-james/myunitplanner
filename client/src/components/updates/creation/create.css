@@ -1,0 +1,65 @@
+.sectionEntries {
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    border-bottom: 1px solid rgba(85, 85, 85, 0.5);
+    margin: 0% 4%;
+}
+
+.sectionEntries .imgcontainer {
+    width: 65%;
+    display: inline-block;
+    padding-top: 2%;
+}
+
+.imgcontainer img {
+    width: 100%;
+    display: inline-block;
+}
+
+.imgcontainer p {
+    width: 50%;
+    display: inline-block;
+    display: none;
+}
+
+.sectionEntries textarea {
+    width: 65%;
+    padding-bottom: 15%;
+    display: inline-block;
+    resize: none;
+}
+
+.sectionEdits {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2%;
+}
+
+.sectionEdits button {
+    width: 30%;
+    display: inline-block;
+    margin-left: 3.25%;
+}
+
+.sectionEdits input {
+    width: 100%;
+    display: inline-block;
+    margin-left: 3.25%;
+}
+
+.updateSection h1 {
+    display: block;
+    cursor: pointer;
+    background: rgba(85, 85, 85, 1);
+    color: white;
+    margin: 3% 2% 0% 2%;
+    padding: 1% 0% 1% 2%;
+}
+
+.ReactCollapse--collapse {
+    max-width: 100%;
+    background-color: rgba(100, 100, 100, 0.1);
+    transition: height 500ms;
+    margin: 0% 4%;
+  }
